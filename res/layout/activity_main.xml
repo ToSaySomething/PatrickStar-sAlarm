@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cc"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.50"
+        android:text="  " />
+
+    <AnalogClock
+        android:id="@+id/analogClock1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.50" />
+    
+		<Button
+		    android:id="@+id/timeBtn"
+		    android:layout_width="273dp"
+		    android:layout_height="wrap_content"
+		    android:text="Open me ,please!"
+		    android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonOFF"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:text="Close me ,thanks!"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.01"
+        android:text="   " />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.01"
+        android:text="   You have two selections , please select!"
+        android:textColor="#aaffffff" />
+
+</LinearLayout>
